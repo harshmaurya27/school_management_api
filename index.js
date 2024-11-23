@@ -8,7 +8,7 @@ const listSchools = require("./routes/listSchools");
 const app = express();
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
-  res.send("This is only for the testing");
+  res.send("Welcome to the school_management Api testing ");
 });
 
 app.use("/", addSchool);
